@@ -43,7 +43,7 @@ header {
 		color: white;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 90%;
+		font-size: 20px;
 	}
 }
 .titleHeader {
@@ -82,6 +82,7 @@ header {
         flex: 1;
         background-image: url("./img/bienvenue.jpg");
         background-repeat: no-repeat;
+		background-size:auto;
 		background-position: 50%;
     }
     .articleMountain{
@@ -107,7 +108,7 @@ header {
             display: flex;
             flex-direction: row;
             align-items: center;
-            width: 20vh;
+            width: 180px;
             height: 5vh;
             border: 2px solid #323232;
             a{
@@ -279,7 +280,7 @@ header {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		height: 35vh;
+		height: 20vw;
 		column-gap: 5%;
 		:nth-child(1){
 			display: flex;
@@ -314,7 +315,7 @@ header {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: 30vh;
+			width: 20vw;
 			height: 100%;
 			:nth-child(1){
 				width: 15vh;
@@ -343,7 +344,7 @@ header {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			width: 30vh;
+			width: 20vw;
 			height: 100%;
 			:nth-child(1){
 				width: 15vh;
@@ -381,6 +382,7 @@ header {
 	height: 40vh;
 	background-image: url("./img/hebergement.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	display: flex;
 	flex-direction: column;
@@ -452,22 +454,26 @@ header {
 			border-radius: 0 0 25px 0;
 			:nth-child(1){
 				div{
-					width: 15vh;
+					width: 15vw;
 					height: 15vh;
 					background-image: url("./img/Edward.png");
 					background-repeat: no-repeat;
+					background-size: contain;
 					background-position: center;
+					position: relative;
 				}
 			}
 			:nth-child(2){
 				div{
-					width: 4vh;
-					height: 3.3vh;
+					width: 3vw;
+					height: 3vh;
 					background-image: url("./img/guimet_haut.png");
 					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: center;
 				}
 				p{
-					font-size: 18px;
+					font-size: 22px;
 					color: black;
 					padding-top: 15px;
 				}
@@ -476,15 +482,17 @@ header {
 				display: flex;
 				flex-direction: column;
 				p{
-					font-size: 16px;
+					font-size: 20px;
 					padding-top: 30px;
 					color: #2D6187;
 				}
 				div{
-					width: 4vh;
-					height: 3.3vh;
+					width: 3vw;
+					height: 3vh;
 					background-image: url("./img/guimet_bas.png");
 					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: center;
 					align-self: flex-end;
 				}
 			}
@@ -505,18 +513,22 @@ header {
 					height: 15vh;
 					background-image: url("./img/Mike.png");
 					background-repeat: no-repeat;
+					background-size: contain;
 					background-position: center;
+					position: relative;
 				}
 			}
 			:nth-child(2){
 				div{
-					width: 4vh;
-					height: 3.3vh;
+					width: 3vw;
+					height: 3vh;
 					background-image: url("./img/guimet_haut.png");
 					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: center;
 				}
 				p{
-					font-size: 18px;
+					font-size: 22px;
 					color: black;
 					padding-top: 15px;
 				}
@@ -525,18 +537,209 @@ header {
 				display: flex;
 				flex-direction: column;
 				p{
-					font-size: 16px;
+					font-size: 20px;
 					padding-top: 30px;
 					color: #2D6187;
 				}
 				div{
-					width: 4vh;
-					height: 3.3vh;
+					width: 3vw;
+					height: 3vh;
 					background-image: url("./img/guimet_bas.png");
 					background-repeat: no-repeat;
+					background-size: contain;
+					background-position: center;
 					align-self: flex-end;
 				}
 			}
 		}
 	}
+}
+
+/* ---------------------- AVIS-CLIENT ---------------------- */
+
+@media screen and (max-width:1280px) {
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			height: 46vh;
+			:nth-child(1){
+				width: 20vw;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 35px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 18px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(2){
+				width: 20vw;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 35px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 18px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(3){
+				width: 20vw;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 35px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 18px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:768px) {
+	.presentationMassif{
+		.articleMountain{
+			h1{
+				font-size: 20px;
+			}
+			p{
+				font-size: 14px;
+			}
+			.buttonMountain{
+				flex-shrink: 10%;
+				.imgButton{
+					flex-shrink: 10%;
+				}
+			}
+		
+		}
+	}
+	
+}
+
+@media screen and (max-width:320px) {
+	header{
+		background-position: right;
+	}
+	.barNav{
+		flex-direction: column;
+		align-items: center;
+	}
+	.barNav .logo{
+		align-self: center;
+		background-position: center;
+	}
+	.barNav .nav{
+		height: 10vh;
+	}
+	.barNav .nav .bNav {
+		padding-top: 10px;
+		a {
+			font-size: 8px;
+			flex-wrap: wrap;
+		}
+	}
+	.titleHeader{
+		font-size: 20px;
+		margin-top: 30px;
+	}
+	.starsLogo {
+		width: 30vh;
+		height: 10%;
+		align-self: center;
+		background-size: contain;
+		margin: 0 0 30px;
+		
+	}
+	.presentationHeader{
+		font-size: 12px;
+		width: 100%;
+		align-self: center;
+		padding: 0 50px;
+		margin: 0;
+	}
+	.presentationMassif{
+		height: 0.1%;
+		background-color: #2D6187;
+		background-image: url(./img/bienvenue.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0;
+		.mountainImg{
+			display: none;
+		}
+		.articleMountain{
+			margin: 20px 20px;
+			background-color: #3b3b3b5d;
+			padding: 20px;
+			color: white;
+			h1{
+				font-size: 15px;
+			}
+			p{
+				font-size: 12px;
+				color: white;
+			}
+			.buttonMountain{
+				flex-shrink: 1%;
+				border: 1px solid white;
+				width: 135px;
+				a{
+					color: white;
+					font-size: 14px;
+				}
+				.imgButton{
+					display: none;
+				}
+			}
+		
+		}
+	}
+	
 }
