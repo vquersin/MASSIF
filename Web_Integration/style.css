@@ -530,16 +530,50 @@ header {
   background-position: center;
   align-self: flex-end;
 }
-/* ---------------------- AVIS-CLIENT ---------------------- */
-@media screen and (max-width: 1280px) {
+/* ---------------------- RESPONSIVE ---------------------- */
+/* ---------------------- 1920 px ---------------------- */
+@media screen and (max-width: 1920px) {
+  .titleHeader {
+    font-size: 60px;
+  }
+  .presentationHeader {
+    font-size: 30px;
+  }
+  .starsLogo {
+    width: 18vw;
+    height: 10vh;
+    align-self: center;
+    background-size: contain;
+    margin: 0 0 30px;
+  }
+  .presentationMassif .articleMountain h1 {
+    font-size: 45px;
+  }
+  .presentationMassif .articleMountain p {
+    font-size: 25px;
+  }
+  .presentationMassif .articleMountain .buttonMountain {
+    flex-shrink: 10%;
+    width: 12vw;
+  }
+  .presentationMassif .articleMountain .buttonMountain .imgButton {
+    flex-shrink: 10%;
+  }
+  .presentationMassif .articleMountain .buttonMountain a {
+    font-size: 25px;
+  }
   .services {
     height: 80vh;
   }
+  .services h3 {
+    font-size: 50px;
+  }
   .services :nth-child(2) {
-    height: 46vh;
+    height: 30vh;
   }
   .services :nth-child(2) :nth-child(1) {
     width: 20vw;
+    height: 35vh;
   }
   .services :nth-child(2) :nth-child(1) :nth-child(1) {
     width: 10vw;
@@ -552,12 +586,12 @@ header {
     padding: 0 2vh;
   }
   .services :nth-child(2) :nth-child(1) p:nth-of-type(1) {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 400;
     align-items: flex-start;
   }
   .services :nth-child(2) :nth-child(1) p:nth-of-type(2) {
-    font-size: 18px;
+    font-size: 25px;
     padding-bottom: 4vh;
   }
   .services {
@@ -565,6 +599,7 @@ header {
   }
   .services :nth-child(2) :nth-child(2) {
     width: 20vw;
+    height: 35vh;
   }
   .services :nth-child(2) :nth-child(2) :nth-child(1) {
     width: 10vw;
@@ -577,12 +612,12 @@ header {
     padding: 0 2vh;
   }
   .services :nth-child(2) :nth-child(2) p:nth-of-type(1) {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 400;
     align-items: flex-start;
   }
   .services :nth-child(2) :nth-child(2) p:nth-of-type(2) {
-    font-size: 18px;
+    font-size: 25px;
     padding-bottom: 4vh;
   }
   .services {
@@ -590,6 +625,7 @@ header {
   }
   .services :nth-child(2) :nth-child(3) {
     width: 20vw;
+    height: 35vh;
   }
   .services :nth-child(2) :nth-child(3) :nth-child(1) {
     width: 10vw;
@@ -602,7 +638,137 @@ header {
     padding: 0 2vh;
   }
   .services :nth-child(2) :nth-child(3) p:nth-of-type(1) {
-    font-size: 35px;
+    font-size: 50px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(2) {
+    font-size: 25px;
+    padding-bottom: 4vh;
+  }
+}
+/* ---------------------- 1280 px ---------------------- */
+@media screen and (max-width: 1280px) {
+  .titleHeader {
+    font-size: 40px;
+  }
+  .barNav .nav .bNav a {
+    font-size: 12px;
+  }
+  .presentationHeader {
+    font-size: 20px;
+  }
+  .starsLogo {
+    width: 15vw;
+    height: 10vh;
+    align-self: center;
+    background-size: contain;
+    margin: 0 0 30px;
+  }
+  .presentationMassif .articleMountain h1 {
+    font-size: 30px;
+  }
+  .presentationMassif .articleMountain p {
+    font-size: 18px;
+  }
+  .presentationMassif .articleMountain .buttonMountain {
+    flex-shrink: 10%;
+    width: 15vw;
+  }
+  .presentationMassif .articleMountain .buttonMountain .imgButton {
+    flex-shrink: 10%;
+  }
+  .presentationMassif .articleMountain .buttonMountain a {
+    font-size: 18px;
+  }
+  .chambres {
+    height: 100vh;
+  }
+  .chambres h2 {
+    font-size: 30px;
+  }
+  .chambres p {
+    font-size: 18px;
+    margin: 0 20px;
+    margin-top: 20px;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services h3 {
+    font-size: 30px;
+  }
+  .services :nth-child(2) {
+    height: 30vh;
+  }
+  .services :nth-child(2) :nth-child(1) {
+    width: 21vw;
+    height: 42vh;
+  }
+  .services :nth-child(2) :nth-child(1) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(1) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(2) {
+    font-size: 18px;
+    padding-bottom: 4vh;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services :nth-child(2) :nth-child(2) {
+    width: 21vw;
+    height: 42vh;
+  }
+  .services :nth-child(2) :nth-child(2) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(2) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(2) {
+    font-size: 18px;
+    padding-bottom: 4vh;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services :nth-child(2) :nth-child(3) {
+    width: 21vw;
+    height: 42vh;
+  }
+  .services :nth-child(2) :nth-child(3) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(3) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(1) {
+    font-size: 30px;
     font-weight: 400;
     align-items: flex-start;
   }
@@ -610,7 +776,15 @@ header {
     font-size: 18px;
     padding-bottom: 4vh;
   }
+  .avisClient .com1 :nth-child(1) div {
+    top: 20%;
+  }
+  .avisClient .com2 :nth-child(1) div {
+    top: 20%;
+    left: 10%;
+  }
 }
+/* ---------------------- 768 px ---------------------- */
 @media screen and (max-width: 768px) {
   .presentationMassif .articleMountain h1 {
     font-size: 20px;
@@ -620,11 +794,167 @@ header {
   }
   .presentationMassif .articleMountain .buttonMountain {
     flex-shrink: 10%;
+    width: 20vw;
   }
-  .presentationMassif .articleMountain .buttonMountain .imgButton {
-    flex-shrink: 10%;
+  .presentationMassif .articleMountain .buttonMountain a {
+    font-size: 14px;
+  }
+  .starsLogo {
+    width: 25vw;
+    height: 10vh;
+    margin: 0;
+  }
+  .chambres {
+    height: 80vh;
+  }
+  .chambres h2 {
+    font-size: 35px;
+  }
+  .chambres .detailsChambres {
+    height: 1%;
+    width: 80%;
+  }
+  .chambres .detailsChambres :nth-child(1) p:nth-of-type(1) {
+    font-size: 18px;
+  }
+  .chambres .detailsChambres :nth-child(1) p:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .chambres .detailsChambres :nth-child(2) p:nth-of-type(1) {
+    font-size: 18px;
+  }
+  .chambres .detailsChambres :nth-child(2) p:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .chambres .detailsChambres :nth-child(3) p:nth-of-type(1) {
+    font-size: 18px;
+  }
+  .chambres .detailsChambres :nth-child(3) p:nth-of-type(2) {
+    font-size: 14px;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services h3 {
+    font-size: 35px;
+  }
+  .services :nth-child(2) {
+    height: 30vh;
+  }
+  .services :nth-child(2) :nth-child(1) {
+    width: 28vw;
+    height: 41vh;
+  }
+  .services :nth-child(2) :nth-child(1) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(1) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(2) {
+    font-size: 16px;
+    padding-bottom: 4vh;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services :nth-child(2) :nth-child(2) {
+    width: 28vw;
+    height: 41vh;
+  }
+  .services :nth-child(2) :nth-child(2) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(2) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(2) {
+    font-size: 16px;
+    padding-bottom: 4vh;
+  }
+  .services {
+    height: 80vh;
+  }
+  .services :nth-child(2) :nth-child(3) {
+    width: 28vw;
+    height: 41vh;
+  }
+  .services :nth-child(2) :nth-child(3) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(3) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(1) {
+    font-size: 30px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(2) {
+    font-size: 16px;
+    padding-bottom: 4vh;
+  }
+  .avisClient h4 {
+    font-size: 25px;
+  }
+  .avisClient p {
+    font-size: 16px;
+  }
+  .avisClient .commentary {
+    width: 90vw;
+  }
+  .avisClient .commentary .com1 {
+    height: 30vh;
+  }
+  .avisClient .commentary .com1 :nth-child(1) div {
+    width: 15vw;
+    left: 10%;
+  }
+  .avisClient .commentary .com1 :nth-child(2) p {
+    font-size: 16px;
+  }
+  .avisClient .commentary .com1 :nth-child(3) p {
+    font-size: 14px;
+  }
+  .avisClient .commentary .com2 {
+    height: 30vh;
+  }
+  .avisClient .commentary .com2 :nth-child(1) div {
+    bottom: 20%;
+  }
+  .avisClient .commentary .com2 :nth-child(2) div {
+    bottom: 20%;
+  }
+  .avisClient .commentary .com2 :nth-child(2) p {
+    font-size: 16px;
+  }
+  .avisClient .commentary .com2 :nth-child(3) p {
+    font-size: 14px;
   }
 }
+/* ---------------------- 320 px ---------------------- */
 @media screen and (max-width: 320px) {
   header {
     background-position: right;
@@ -700,5 +1030,183 @@ header {
   }
   .presentationMassif .articleMountain .buttonMountain .imgButton {
     display: none;
+  }
+  .chambres {
+    height: 80vh;
+  }
+  .chambres h2 {
+    font-size: 20px;
+  }
+  .chambres p {
+    font-size: 14px;
+  }
+  .chambres .detailsChambres {
+    height: 1%;
+    width: 100%;
+  }
+  .chambres .detailsChambres :nth-child(1) p:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .chambres .detailsChambres :nth-child(1) p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  .chambres .detailsChambres :nth-child(2) p:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .chambres .detailsChambres :nth-child(2) p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  .chambres .detailsChambres :nth-child(3) p:nth-of-type(1) {
+    font-size: 16px;
+  }
+  .chambres .detailsChambres :nth-child(3) p:nth-of-type(2) {
+    font-size: 12px;
+  }
+  .services h3 {
+    font-size: 30px;
+    padding-bottom: 40vh;
+  }
+  .services :nth-child(2) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10%;
+  }
+  .services :nth-child(2) :nth-child(1) {
+    width: 90vw;
+    height: 30vh;
+  }
+  .services :nth-child(2) :nth-child(1) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(1) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(1) p:nth-of-type(2) {
+    font-size: 12px;
+    padding-bottom: 4vh;
+  }
+  .services :nth-child(2) :nth-child(2) {
+    width: 90vw;
+    height: 30vh;
+  }
+  .services :nth-child(2) :nth-child(2) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(2) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(2) p:nth-of-type(2) {
+    font-size: 12px;
+    padding-bottom: 4vh;
+  }
+  .services {
+    flex-direction: column;
+    height: 120vh;
+    margin-bottom: 15vh;
+    margin-top: 0;
+    align-items: center;
+  }
+  .services :nth-child(2) :nth-child(3) {
+    width: 90vw;
+    height: 30vh;
+  }
+  .services :nth-child(2) :nth-child(3) :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    right: 17%;
+    top: 10%;
+  }
+  .services :nth-child(2) :nth-child(3) p {
+    text-align: left;
+    padding: 0 2vh;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 400;
+    align-items: flex-start;
+  }
+  .services :nth-child(2) :nth-child(3) p:nth-of-type(2) {
+    font-size: 12px;
+    padding-bottom: 4vh;
+  }
+  .discover {
+    height: 60vh;
+    text-align: center;
+  }
+  .discover p:nth-of-type(1) {
+    font-size: 20px;
+  }
+  .discover p:nth-of-type(2) {
+    font-size: 30px;
+  }
+  .discover :nth-child(3) {
+    width: 42vw;
+  }
+  .avisClient {
+    margin: 10vh 0;
+    text-align: center;
+  }
+  .avisClient h4 {
+    font-size: 20px;
+  }
+  .avisClient p {
+    font-size: 14px;
+  }
+  .avisClient .commentary {
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    row-gap: 50%;
+    margin: 10vh 0;
+  }
+  .avisClient .commentary .com1 {
+    height: 35vh;
+  }
+  .avisClient .commentary .com1 :nth-child(1) {
+    width: 20vw;
+    height: 10vh;
+    flex-grow: 2;
+  }
+  .avisClient .commentary .com1 :nth-child(1) div {
+    width: 32vw;
+    background-size: cover;
+    left: 25%;
+  }
+  .avisClient .commentary .com1 :nth-child(2) p {
+    font-size: 16px;
+  }
+  .avisClient .commentary .com2 {
+    height: 35vh;
+  }
+  .avisClient .commentary .com2 :nth-child(1) {
+    width: 10vw;
+    height: 10vh;
+    flex-grow: 2;
+  }
+  .avisClient .commentary .com2 :nth-child(1) div {
+    background-size: contain;
+    left: 50%;
+  }
+  .avisClient .commentary .com2 :nth-child(2) p {
+    font-size: 16px;
   }
 }

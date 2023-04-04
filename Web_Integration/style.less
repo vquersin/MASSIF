@@ -555,15 +555,52 @@ header {
 	}
 }
 
-/* ---------------------- AVIS-CLIENT ---------------------- */
-
-@media screen and (max-width:1280px) {
+/* ---------------------- RESPONSIVE ---------------------- */
+/* ---------------------- 1920 px ---------------------- */
+@media screen and (max-width:1920px) {
+	.titleHeader{
+		font-size: 60px;
+	}
+	.presentationHeader{
+		font-size: 30px;
+	}
+	.starsLogo {
+		width: 18vw;
+		height: 10vh;
+		align-self: center;
+		background-size: contain;
+		margin: 0 0 30px;
+	}
+	.presentationMassif{
+		.articleMountain{
+			h1{
+				font-size: 45px;
+			}
+			p{
+				font-size: 25px;
+			}
+			.buttonMountain{
+				flex-shrink: 10%;
+				width: 12vw;
+				.imgButton{
+					flex-shrink: 10%;
+				}
+				a{
+				font-size: 25px;
+				}
+			}
+		}
+	}
 	.services{
 		height: 80vh;
+		h3{
+			font-size: 50px;
+		}
 		:nth-child(2){
-			height: 46vh;
+			height: 30vh;
 			:nth-child(1){
 				width: 20vw;
+				height: 35vh;
 				:nth-child(1){
 					width: 10vw;
 					height: 10vh;
@@ -574,7 +611,153 @@ header {
 					text-align: left;
 					padding: 0 2vh;
 					&:nth-of-type(1){
-						font-size: 35px;
+						font-size: 50px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 25px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(2){
+				width: 20vw;
+				height: 35vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 50px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 25px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(3){
+				width: 20vw;
+				height: 35vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 50px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 25px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ---------------------- 1280 px ---------------------- */
+
+@media screen and (max-width:1280px) {
+	.titleHeader{
+		font-size: 40px;
+	}
+
+	.barNav .nav .bNav {
+		a {
+			font-size: 12px;
+		}
+	}
+
+	.presentationHeader{
+		font-size: 20px;
+	}
+	.starsLogo {
+		width: 15vw;
+		height: 10vh;
+		align-self: center;
+		background-size: contain;
+		margin: 0 0 30px;
+	}
+	.presentationMassif{
+		.articleMountain{
+			h1{
+				font-size: 30px;
+			}
+			p{
+				font-size: 18px;
+			}
+			.buttonMountain{
+				flex-shrink: 10%;
+				width: 15vw;
+				.imgButton{
+					flex-shrink: 10%;
+				}
+				a{
+				font-size: 18px;
+				}
+			}
+		}
+	}
+
+	.chambres{
+		height: 100vh;
+		h2{
+			font-size: 30px;
+		}
+		p{
+			font-size: 18px;
+			margin: 0 20px;
+			margin-top: 20px;
+		}
+	}
+
+	.services{
+		height: 80vh;
+		h3{
+			font-size: 30px;
+		}
+		:nth-child(2){
+			height: 30vh;
+			:nth-child(1){
+				width: 21vw;
+				height: 42vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 30px;
 						font-weight: 400;
 						align-items: flex-start;
 					}
@@ -590,7 +773,8 @@ header {
 		height: 80vh;
 		:nth-child(2){
 			:nth-child(2){
-				width: 20vw;
+				width: 21vw;
+				height: 42vh;
 				:nth-child(1){
 					width: 10vw;
 					height: 10vh;
@@ -601,7 +785,7 @@ header {
 					text-align: left;
 					padding: 0 2vh;
 					&:nth-of-type(1){
-						font-size: 35px;
+						font-size: 30px;
 						font-weight: 400;
 						align-items: flex-start;
 					}
@@ -617,7 +801,8 @@ header {
 		height: 80vh;
 		:nth-child(2){
 			:nth-child(3){
-				width: 20vw;
+				width: 21vw;
+				height: 42vh;
 				:nth-child(1){
 					width: 10vw;
 					height: 10vh;
@@ -628,7 +813,7 @@ header {
 					text-align: left;
 					padding: 0 2vh;
 					&:nth-of-type(1){
-						font-size: 35px;
+						font-size: 30px;
 						font-weight: 400;
 						align-items: flex-start;
 					}
@@ -640,7 +825,26 @@ header {
 			}
 		}
 	}
+	.avisClient{
+		.com1{
+			:nth-child(1){
+				div{
+					top: 20%;
+				}
+			}
+		}
+		.com2{
+			:nth-child(1){
+				div{
+					top: 20%;
+					left: 10%;
+				}
+			}
+		}
+	}
 }
+
+/* ---------------------- 768 px ---------------------- */
 
 @media screen and (max-width:768px) {
 	.presentationMassif{
@@ -653,15 +857,209 @@ header {
 			}
 			.buttonMountain{
 				flex-shrink: 10%;
-				.imgButton{
-					flex-shrink: 10%;
+				width: 20vw;
+				a{
+					font-size: 14px;
 				}
 			}
 		
 		}
 	}
+
+	.starsLogo {
+		width: 25vw;
+		height: 10vh;
+		margin: 0;
+	}
+
+	.chambres{
+		height: 80vh;
+        h2{
+			font-size: 35px;
+		}
+        .detailsChambres{
+			height: 1%;
+			width: 80%;
+            :nth-child(1){
+				p{
+					&:nth-of-type(1){
+						font-size: 18px;
+					}
+					&:nth-of-type(2){
+						font-size: 14px;
+					}
+				}
+               
+            }
+            :nth-child(2){
+                p{
+					&:nth-of-type(1){
+						font-size: 18px;
+					}
+					&:nth-of-type(2){
+						font-size: 14px;
+					}
+				}
+			}
+            :nth-child(3){
+                p{
+					&:nth-of-type(1){
+						font-size: 18px;
+					}
+					&:nth-of-type(2){
+						font-size: 14px;
+					}
+				}
+			}
+        }
+    }
+
+	.services{
+		height: 80vh;
+		h3{
+			font-size: 35px;
+		}
+		:nth-child(2){
+			height: 30vh;
+			:nth-child(1){
+				width: 28vw;
+				height: 41vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 30px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 16px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(2){
+				width: 28vw;
+				height: 41vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 30px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 16px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		height: 80vh;
+		:nth-child(2){
+			:nth-child(3){
+				width: 28vw;
+				height: 41vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 30px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 16px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
 	
+	.avisClient{
+		h4{
+			font-size: 25px;
+		}
+		p{
+			font-size: 16px;
+		}
+		.commentary{
+			width: 90vw;
+			// Commentary 1
+			.com1{
+				height: 30vh;
+				:nth-child(1){
+					div{
+						width: 15vw;
+						left: 10%;
+					}
+				}
+				:nth-child(2){
+					p{
+						font-size: 16px;
+					}
+				}
+				:nth-child(3){
+					p{
+						font-size: 14px;
+				}
+				}
+			}
+			// Commentary 2
+			.com2{
+				height: 30vh;
+				:nth-child(1){
+					div{
+						bottom: 20%;
+					}
+				}
+				:nth-child(2){
+					div{
+						bottom: 20%;
+					}
+					p{
+						font-size: 16px;
+					}
+				}
+				:nth-child(3){
+					p{
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+
 }
+
+/* ---------------------- 320 px ---------------------- */
 
 @media screen and (max-width:320px) {
 	header{
@@ -741,5 +1139,210 @@ header {
 		
 		}
 	}
-	
+	.chambres{
+		height: 80vh;
+        h2{
+			font-size: 20px;
+		}
+		p{
+			font-size: 14px;
+		}
+        .detailsChambres{
+			height: 1%;
+			width: 100%;
+            :nth-child(1){
+				p{
+					&:nth-of-type(1){
+						font-size: 16px;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+					}
+				}
+               
+            }
+            :nth-child(2){
+                p{
+					&:nth-of-type(1){
+						font-size: 16px;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+					}
+				}
+			}
+            :nth-child(3){
+                p{
+					&:nth-of-type(1){
+						font-size: 16px;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+					}
+				}
+			}
+        }
+    }
+	.services{
+		h3{
+			font-size: 30px;
+			padding-bottom: 40vh;
+		}
+		:nth-child(2){
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			row-gap: 10%;
+			:nth-child(1){
+				width: 90vw;
+				height: 30vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 16px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		:nth-child(2){
+			:nth-child(2){
+				width: 90vw;
+				height: 30vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 16px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.services{
+		flex-direction: column;
+		height: 120vh;
+		margin-bottom: 15vh;
+		margin-top: 0;
+		align-items: center;
+		:nth-child(2){
+			:nth-child(3){
+				width: 90vw;
+				height: 30vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					right: 17%;
+					top: 10%;
+				}
+				p{
+					text-align: left;
+					padding: 0 2vh;
+					&:nth-of-type(1){
+						font-size: 16px;
+						font-weight: 400;
+						align-items: flex-start;
+					}
+					&:nth-of-type(2){
+						font-size: 12px;
+						padding-bottom: 4vh;
+					}
+				}
+			}
+		}
+	}
+	.discover{
+		height: 60vh;
+		text-align: center;
+        p{
+			&:nth-of-type(1){
+				font-size: 20px;
+			}
+			&:nth-of-type(2){
+				font-size: 30px;
+			}
+		}
+        :nth-child(3){
+			width: 42vw;
+		}
+    }
+	.avisClient{
+		margin: 10vh 0;
+		text-align: center;
+		h4{
+			font-size: 20px;
+		}
+		p{
+			font-size: 14px;
+		}
+		.commentary{
+			flex-direction: column;
+			align-items: center;
+			height: 50vh;
+			row-gap: 50%;
+			margin: 10vh 0;
+			.com1{
+				height: 35vh;
+				:nth-child(1){
+					width: 20vw;
+					height: 10vh;
+					flex-grow: 2;
+					div{
+						width: 32vw;
+						background-size: cover;
+						left: 25%;
+					}
+				}
+				:nth-child(2){
+					p{
+						font-size: 16px;
+					}
+				}
+			}
+			.com2{
+				height: 35vh;
+				:nth-child(1){
+					width: 10vw;
+					height: 10vh;
+					flex-grow: 2;
+					div{
+						background-size: contain;
+						left: 50%;
+					}
+				}
+				:nth-child(2){
+					p{
+						font-size: 16px;
+					}
+				}	
+			}
+		}
+		
+	}
 }
